@@ -1,0 +1,49 @@
+.general {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 98vw;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px;
+  font-size: 1.3em;
+  background-color: #fff;
+  margin-bottom: 2px;
+  color: #444;
+  border-radius: 2px;
+}
+
+ul li:hover {
+  border-left: 3px solid #aaa;
+}
+
+.reposList {
+  display: flex;
+  flex-direction: column;
+  height: 6vh;
+  justify-content: space-between;
+}
+
+.reposList .owner {
+  font-size: 10pt;
+}
+
+.main {
+  width: 52.5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    width: 95vw;
+  }
+}

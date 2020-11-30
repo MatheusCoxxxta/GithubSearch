@@ -1,0 +1,30 @@
+.main {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  border: 0;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #323333;
+  color: #687f7f;
+  border-radius: 2px;
+  width: 50vw;
+}
+
+.btn {
+  border: 0;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #323333;
+  color: #687f7f;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1000px) {
+  .searchBar {
+    width: 90vw;
+  }
+}

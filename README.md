@@ -1,5 +1,9 @@
 # github-search
 
+Projeto de busca de repositórios no Github por username.
+
+<img width=582px height=302 src=""   alt="Project Screenshot">
+
 ## Project setup
 ```
 yarn install
