@@ -32,10 +32,16 @@ ul li:hover {
   flex-direction: column;
   height: 6vh;
   justify-content: space-between;
+  cursor: pointer;
+}
+
+.reposList .name {
+  cursor: pointer;
 }
 
 .reposList .owner {
   font-size: 10pt;
+  cursor: pointer;
 }
 
 .main {
