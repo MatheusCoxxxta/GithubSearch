@@ -2,7 +2,7 @@
   <div class="general">
     <div class="main" v-if="data">
       <ul v-for="repos in data" :key="repos.name">
-        <li class="reposList" @click="redirect(repos.owner.login, repos.name)">
+        <li class="reposList" @click="redirect(repos.owner.login, repos.name)"  v-if="repos.fork !== true">
           <label class="name" for="">
             {{ repos.name.slice(0, 30) }}
             {{ repos.name.length > 30 ? "..." : "" }}
