@@ -2,7 +2,7 @@
 
 Projeto de busca de repositórios no Github por username.
 
-<img width=582px height=302 src="https://raw.githubusercontent.com/MatheusCoxxxta/GithubSearch/master/src/assets/github-search.png"   alt="Project Screenshot">
+<img width=582px height=302 src="https://raw.githubusercontent.com/MatheusCoxxxta/GithubSearch/master/src/assets/Github-search.png"   alt="Project Screenshot">
 
 ## Project setup
 ```
@@ -26,3 +26,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Design based on "The Ultimate Vue 2 Crash Course - Learn by Example" by Gary Simon
