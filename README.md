@@ -2,7 +2,7 @@
 
 Projeto de busca de repositórios no Github por username.
 
-<img width=582px height=302 src=""   alt="Project Screenshot">
+<img width=582px height=302 src="https://raw.githubusercontent.com/MatheusCoxxxta/GithubSearch/master/src/assets/github-search.png"   alt="Project Screenshot">
 
 ## Project setup
 ```
